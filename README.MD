@@ -4,7 +4,7 @@ Tomcat is a Java EE servlet container. Running you Hi-Framework application with
  your embedded tomcat server.
 
 
-# Running the project
+# Running this project
 
 ## Start tomcat
 ```bash
@@ -17,6 +17,7 @@ http://localhost:9093/app/pages/example
 ```
 
 # Setting up your own project
+This guide explains how to configure you Hi-Framework based application to run with tomcat7 embedded.
 
 ## web.xml
 ```xml
