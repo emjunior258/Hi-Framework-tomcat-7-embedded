@@ -51,29 +51,6 @@ This guide explains how to configure you Hi-Framework based application to run w
 </web-app>
 ```
 
-## hi.xml
-```xml
-<?xml version="1.0" encoding="UTF-8" ?>
-<app xmlns="http://hi.co.mz/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-     xsi:schemaLocation="http://hi.co.mz/XMLSchema
-      https://talk-code.github.io/releases/ns/hi-1.0.xsd">
-
-    <deployment-mode>DEVELOPMENT</deployment-mode>
-    <default-lang>en</default-lang>
-
-    <web>
-
-        <welcome-url>pages/example</welcome-url>
-
-        <templates>
-            <template>index</template>
-        </templates>
-
-    </web>
-
-</app>
-
-```
 
 ## Add the tomcat maven plugin
 ```xml
