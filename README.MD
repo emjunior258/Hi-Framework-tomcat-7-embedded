@@ -142,7 +142,7 @@ http://localhost:9093/app/pages/example
 
 ```
 
-## Add the Emerjoin maven repository
+## Add the Emerjoin's' maven repository
 Hi-Framework is currently living in a maven-repository hosted by github
 ```xml
 <repositories>
