@@ -1,6 +1,6 @@
 # Hi-Framework with tomcat-7 embedded
 This project shows how to run a Hi-Framework app with tomcat7 embedded.
-Tomcat is a servlet container. Running you Hi-Framework application with tomcat embedded will allow you to test your application faster, you just got to open your terminal, navigate to your maven project directory and start
+Tomcat is a Java EE servlet container. Running you Hi-Framework application with tomcat embedded will allow you to test your application faster, you just got to open your terminal, navigate to your maven project directory and start
  your embedded tomcat server.
 
 
