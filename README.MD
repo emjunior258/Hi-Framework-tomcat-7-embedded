@@ -52,7 +52,7 @@ This guide explains how to configure you Hi-Framework based application to run w
 ```
 
 
-## Add the tomcat maven plugin
+## Add and configure the tomcat maven plugin
 ```xml
  <build>
         <plugins>
