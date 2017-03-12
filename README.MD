@@ -29,13 +29,13 @@ This guide explains how to configure you Hi-Framework based application to run w
 
 
     <servlet>
-        <servlet-name>HiServlet</servlet-name>
+        <servlet-name>Hi-Framework-Dispatcher-Servlet</servlet-name>
         <servlet-class>mz.co.hi.web.DispatcherServlet</servlet-class>
         <load-on-startup>1</load-on-startup>
     </servlet>
     
     <servlet-mapping>
-        <servlet-name>HiServlet</servlet-name>
+        <servlet-name>Hi-Framework-Dispatcher-Servlet</servlet-name>
         <url-pattern>/*</url-pattern>
     </servlet-mapping>
 
