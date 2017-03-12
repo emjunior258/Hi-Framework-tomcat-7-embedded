@@ -72,7 +72,7 @@ http://localhost:9093/app/pages/example
 
 ```
 
-## Add the tomcat plugin
+## Add the tomcat maven plugin
 ```xml
  <build>
         <plugins>
@@ -102,10 +102,10 @@ http://localhost:9093/app/pages/example
 
             </plugin>
         </plugins>
-    </build>
+ </build>
 ```
 
-## Set the dependencies
+## Add the maven dependencies
 ```xml
 
  <dependencies>
@@ -142,7 +142,7 @@ http://localhost:9093/app/pages/example
 
 ```
 
-## Set the Emerjoin repository
+## Add the Emerjoin maven repository
 Hi-Framework is currently living in a maven-repository hosted by github
 ```xml
 <repositories>
