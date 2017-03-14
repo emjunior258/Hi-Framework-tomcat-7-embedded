@@ -79,7 +79,9 @@ This guide explains how to configure you Hi-Framework based application to run w
                     <!--This will be the context path of the app-->
                     <path>/app</path>
                     <!--Here we make sure that the compiled classes under target/classes will be added to classpath-->
-                    <additionalClassesDirs>${project.build.directory}/${project.build.finalName}/classes</additionalClassesDirs>
+                    <additionalClassesDirs>
+                         <classesDir>${project.build.directory}/${project.build.finalName}/classes</classesDir>
+                    </additionalClassesDirs>
                 </configuration>
 
             </plugin>
