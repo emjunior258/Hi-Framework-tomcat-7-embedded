@@ -29,7 +29,9 @@
                 <configuration>
                     <port>9093</port>
                     <path>/app</path>
-                    <additionalClassesDirs>${project.build.directory}/${project.build.finalName}/classes</additionalClassesDirs>
+                    <additionalClassesDirs>
+                        <classesDir>${project.build.directory}/${project.build.finalName}/classes</classesDir>
+                    </additionalClassesDirs>
                 </configuration>
 
             </plugin>
